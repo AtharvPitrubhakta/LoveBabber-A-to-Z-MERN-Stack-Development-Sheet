@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table, tr, td, th { 
+            border: 1px solid black;
+            border-collapse: collapse;
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>My First Table</caption>
+        <tr>
+            <th colspan="2">
+                Month
+            </th>
+            <td>
+                abcd
+            </td>
+            <!-- <th>
+                Amount
+            </th> -->
+        </tr>
+        <tr>
+            <th>Jan</th>
+            <td>100</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Feb</th>
+            <td>200</td>
+        </tr>
+        <tr>
+            <!-- <th>March</th> -->
+            <td>300</td>
+        </tr>
+        <tr>
+            <!-- <th>Total</th> -->
+            <td>600</td>
+        </tr>
+    </table>
+
+</body>
+</html>
