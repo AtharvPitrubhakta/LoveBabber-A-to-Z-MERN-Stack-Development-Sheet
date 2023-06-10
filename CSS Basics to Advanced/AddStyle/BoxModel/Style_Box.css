@@ -1,0 +1,28 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2PX solid black;
+    padding : 25px;
+    margin: 10px;
+}
+#org{
+    background-color: orange;  
+    /* height: 300px;
+    width: 200px; */
+    /* background-color: #2d4f47; */
+}
+#wht{
+    background-color: rgb(255,255,255);
+}
+#grn{
+    background-color: green;
+} 
+
+/* @font-face {
+    font-family: myFirstFont;;
+    src: url(sansation_light.woff);
+}
+
+div {
+    font-family: myFirstFont;
+} */
