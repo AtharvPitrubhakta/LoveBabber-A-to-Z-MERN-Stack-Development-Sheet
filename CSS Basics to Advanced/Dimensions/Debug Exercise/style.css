@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    background-color: rgba(128, 128, 128, 0.479);
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+span{
+    background-color:rgb(80, 4, 194);
+    height: 200px;
+    width: 200px;
+    margin: 20px;   
+    display: inline-block;
+}
+
+
