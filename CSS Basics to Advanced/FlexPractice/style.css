@@ -1,0 +1,77 @@
+.container{
+    height: 500px;
+    border: 2px solid green;
+    /* display: flex; */
+    display: flex;
+
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    
+    /* flex-flow: column wrap; */
+
+    justify-content: center;
+    
+
+    align-items: center;
+
+    align-content: flex-start;
+
+    gap: 10px;
+
+    /* FLEX-DIRECTIONS */
+
+    /* flex-direction: row;  */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* FLEX WRAP */
+
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+
+    /* FLEX FLOW */
+
+    /* flex-flow: column wrap; */
+
+    /* JUSTIFY CONTENT  ( ye jo property hai oo main-axis(items ko horizontally justify karta hai.) ke uper apply krti hai.)*/
+
+    /* justify-content:flex-start; */
+    /* justify-content:flex-end; */
+    /* justify-content:space-around; */
+    /* justify-content:space-between; */
+    /* justify-content:space-evenly; */
+    /* justify-content: center; */
+    /* justify-content: left; */
+    /* justify-content: right; */
+
+    /* ALIGN ITEMS ( ye jo property hai oo main-axis(items ko vertically align karta hai) ke uper apply krti hai.) */
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+    
+
+    /* GAP PROPERTY (ese element me gap de sakte hai)*/
+    /* gap: 10px; */
+   
+    /* ALIGN CONTENT (jitini apki flex-items ki rows ban rahi hai unke bich ki spacing handle kr leta hai or rows ki alignment handle kar leta hai. */
+
+    /* align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly; */
+    
+}
+.box{
+    border: 1px solid brown;
+    background-color: orange;
+    /* width: 100px ; */
+}
