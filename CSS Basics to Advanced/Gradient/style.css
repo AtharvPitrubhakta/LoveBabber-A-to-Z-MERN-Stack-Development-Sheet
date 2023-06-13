@@ -1,0 +1,33 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    /* background-image: linear-gradient(Red,blue);
+    background-image: linear-gradient(to right,Red,blue);
+    background-image: linear-gradient(to left,Red,blue);
+    background-image: linear-gradient(to bottom,Red,blue);
+    background-image: linear-gradient(to top,Red,blue);
+    background-image: linear-gradient(to bottom right,Red,blue,green);
+    background-image: linear-gradient(300deg,Red,blue,green); */ /* use in angle */
+    /* background-image: linear-gradient(to bottom,rgba(255,0,0,0),rgba(0,0,255,1)); */
+    background-image:linear-gradient(orange,white,green);
+}
+
+.mydiv{
+    border: 1px solid black;
+    margin: 10px ;
+    height: 500px;
+    width: 500px;
+    /* background-image: radial-gradient(circle,red,blue,orange,green,violet,yellow); */
+    /* background-image: radial-gradient(white 20%, orange 60%,green 40%); */
+    background-image: radial-gradient(circle,red,orange,yellow,green,blue);
+}
+
+#traingle{
+    border: 1px solid black;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    background-image:conic-gradient(red,orange,yellow,green,blue);
+    /* background:conic-gradient(darkorange,white,green); */
+}
