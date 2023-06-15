@@ -1,0 +1,50 @@
+.mydiv{
+    border: 5px solid black;
+    width: 400px;
+    height: 300px;
+    /* margin-left:550px; */
+    margin-left: 200px;
+    margin-top: 150px;
+    position: relative;
+}
+.left {
+    color: red;
+    position: static;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.right {
+    color: blue;
+    position: absolute;
+    font-size: larger;
+    font-weight: bold;
+    right: 0;
+    top: 0;
+}
+
+.center {
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    left: 178px;
+    top: 115px;
+}
+
+.botleft {
+    color: orange;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+
+.botright {
+    color: darkviolet;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
