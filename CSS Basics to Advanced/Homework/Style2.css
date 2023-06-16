@@ -1,0 +1,43 @@
+img {
+  margin: 20px;
+  width: 450px;
+  height: 300px;
+  border-radius: 20px;
+}
+h1 {
+  margin: 20px;
+  font-family: fantasy;
+  /* font-style: italic; */
+  font-family: Rubik, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+hr {
+  width: 373px;
+  margin: 20px;
+  opacity: 0.5;
+}
+#rupees {
+  margin: 20px;
+  color: blueviolet; 
+}
+h2 {
+  display: inline;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Rubik,sans-serif;
+}
+#offer {
+  color: gray;
+}
+.per {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 209 161 / var(--tw-bg-opacity));
+  /* padding-left: 0.5rem; */
+  /* padding-right: 0.5rem; */
+  padding-left: 8px;
+  padding-right: 8px;
+  /* --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity)); */
+  color: white;
+  border-radius: 0.375rem;
+  margin: 10px;
+}

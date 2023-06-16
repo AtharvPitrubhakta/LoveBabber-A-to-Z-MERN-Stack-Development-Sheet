@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  color: darkorange;
+}
+.god {
+  color: darkred;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: bold;
+}
+#soldier{
+  color:blue;
+}
+
+figure{
+    color: chocolate;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+.Ram1 {
+  color: greenyellow;
+}
+.Bio {
+  color: darkviolet;
+}
+#Bio1:hover {
+  color: blue;
+}
+h2 {
+  color: darkorange;
+}
+.arjun {
+  color: green;
+}
+#madhav:hover {
+  color: skyblue;
+}
+strong{
+    color: red;
+}
+p{
+    color: darkgoldenrod;
+}
+cite{
+    color: darkcyan;
+    font-size: larger;
+}
+.monkey{
+    font-size: larger;
+    
+}
+.Apple{
+    color:hotpink;
+}
