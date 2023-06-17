@@ -1,0 +1,18 @@
+h1{
+    text-shadow: 3px 3px 5px red;
+    text-shadow: 3px 3px 5px red,5px 5px 5px green;
+}
+
+.box{
+    /* Default color of shadow is text colour(means text jo color asel toch shadow cha default color yeil) */
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    /* Positive horizontal and vertical value */
+    box-shadow: 10px 10px 15px greenyellow,15px 15px 15px 10px darkviolet;
+    /* Negative horizontal and vertical value */
+    /* box-shadow: -10px -10px 15px greenyellow,15px 15px 15px darkviolet;  */
+    color: red;
+    font-weight: bold;
+    border: 2px solid black;
+}
