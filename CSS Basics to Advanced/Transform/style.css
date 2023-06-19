@@ -1,0 +1,21 @@
+.box{
+    background-color: aqua;
+    /* transform: translate(735px,350px); */
+    /* transform: translateX(735px);
+    transform: translateY(350px);*/
+    
+    /* Positive rotate is clockwise*/
+    /* transform: rotate(45deg); */
+    /* Negative rotate is Anticlockwise */
+    /* transform: rotate(-45deg); */
+
+    /* transform: scale(1.5,3.5); */
+    /* transform: scaleX(4); */
+    /* transform: scaleY(4); */
+    
+    transform: skew(-45deg);
+
+    /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+    transform: matrix();    
+    margin: 200px;
+}
